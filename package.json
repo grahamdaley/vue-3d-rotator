@@ -1,14 +1,15 @@
 {
   "name": "vue-3d-rotator",
   "description": "3D rotating carousel component for Vue.js",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "Graham Daley",
   "license": "MIT",
   "private": false,
   "homepage": "https://github.com/grahamdaley/vue-3d-rotator",
+  "main": "./dist/vue-3d-rotator",
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
+    "build": "vue-cli-service build --target lib",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
